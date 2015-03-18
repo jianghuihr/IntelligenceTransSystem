@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:paddingBottom="4dp"
+    android:paddingTop="4dp" >
+
+    <Button
+        android:id="@+id/btn_query_change"
+        style="@style/FunctionTextSize"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableBottom="@drawable/change"
+        android:paddingTop="6dp"
+        android:text="@string/btn_query_change" />
+
+    <Button
+        android:id="@+id/btn_query_route"
+        style="@style/FunctionTextSize"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableBottom="@drawable/route"
+        android:text="@string/btn_query_route" />
+
+    <Button
+        android:id="@+id/btn_query_site"
+        style="@style/FunctionTextSize"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableBottom="@drawable/site"
+        android:paddingTop="4dp"
+        android:text="@string/btn_query_site" />
+
+    <Button
+        android:id="@+id/btn_query_nearby"
+        style="@style/FunctionTextSize"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawableBottom="@drawable/nearby"
+        android:paddingTop="6dp"
+        android:text="@string/btn_query_nearby" />
+
+</LinearLayout>
